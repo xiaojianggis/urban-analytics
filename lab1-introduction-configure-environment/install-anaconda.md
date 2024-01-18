@@ -26,8 +26,8 @@ For Mac, go to the `terminal`,
 <img src="images/mac-terminal.png" title="A cute kitten" height="300" />
 
 2. Type in `conda info -e` in your terminal, you should see the `base` environment. The `base` is the default Python environment. We usually don't install Python modules in the `base`. 
-3. Create a customized virutal environment called `geoviz`, `conda create --name geoviz`. You can use other names as you like. Let
-4. Install the required modules. Before you get started to install Python modules, we need to first activate the virtual environment we just created. Just type in `conda activate geoviz` in the terminal.
+3. Create a customized virutal environment called `urban`, `conda create --name urban`. You can use other names as you like. Let
+4. Install the required modules. Before you get started to install Python modules, we need to first activate the virtual environment we just created. Just type in `conda activate urban` in the terminal.
 	- install `geopandas`, type in `conda install -c conda-forge geopandas` in the terminal.
 	- install `jupyter`, type in `pip install jupyter` in the terminal.
     - install `cartopy`, type in `pip install cartopy` in the terminal.
@@ -39,7 +39,7 @@ For Mac, go to the `terminal`,
 ## 3. Start Jupyter Notebook and write Python code
 Now we have the required environment ready. Let's start the `Jupyter Notebook` and then write your Python code. 
 
-1. Go to your terminal. Make sure the `geoviz` is activated. **Note**: If you still see the `base`, you need to activate it first by typing `conda activate geoviz` in the terminal. If you want to go back to base, you can also deactivate it, `conda deactivate`. In this way, you can swich between different virtual environment, which can be created for different purposes. 
+1. Go to your terminal. Make sure the `urban` is activated. **Note**: If you still see the `base`, you need to activate it first by typing `conda activate urban` in the terminal. If you want to go back to base, you can also deactivate it, `conda deactivate`. In this way, you can swich between different virtual environment, which can be created for different purposes. 
 
 2. Start the Jupyter Notebook by typing `jupyter notebook` in the terminal. Then you web browser will start automatically and guide you to the notebook. You can then write Python code over there. 
 
