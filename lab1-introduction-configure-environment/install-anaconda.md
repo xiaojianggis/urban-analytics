@@ -30,7 +30,6 @@ For Mac, go to the `terminal`,
 4. Install the required modules. Before you get started to install Python modules, we need to first activate the virtual environment we just created. Just type in `conda activate urban` in the terminal.
 	- install `geopandas`, type in `conda install -c conda-forge geopandas` in the terminal.
 	- install `jupyter`, type in `pip install jupyter` in the terminal.
-    - install `cartopy`, type in `pip install cartopy` in the terminal.
 
 
 > It is pretty straightforward to install the modules you need in Anaconda. In most cases just type in `conda install name_module`, or `pip install name_module`. 
