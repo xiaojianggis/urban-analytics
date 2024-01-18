@@ -10,7 +10,7 @@ With the increase of data availability and the computing power together with adv
 
 2. Be familar with Jupyter Notebook ([link](lab1-introduction-configure-environment/jupyter-notebook.md))
 
-3. Basics of Python programing ([Link](lab1-introduction-configure-environment/PythonBasic.ipynb))
+3. Basics of Python programing ([Link](lab1-introduction-configure-environment/Python-basics.ipynb))
 
 ## 2.  Basics of Python Programming
 
