@@ -6,11 +6,11 @@ With the increase of data availability and the computing power together with adv
 # Outline
 
 ## 1. Introduction of Urban Analytics and configure the environment
-1. Install Anaconda ([Link](Lab1-Configure-environment/install-anaconda.md))
+1. Install Anaconda ([Link](lab1-introduction-configure-environment/install-anaconda.md))
 
-2. Be familar with Jupyter Notebook ([link](Lab1-Configure-environment/jupyter-notebook.md))
+2. Be familar with Jupyter Notebook ([link](lab1-introduction-configure-environment/jupyter-notebook.md))
 
-3. Basics of Python programing ([Link](Lab1-Configure-environment/PythonBasic.ipynb))
+3. Basics of Python programing ([Link](lab1-introduction-configure-environment/PythonBasic.ipynb))
 
 ## 2.  Basics of Python Programming
 
