@@ -1,1 +1,76 @@
-# urban-analytics
+# Welcome to Urban Analytics!
+
+With the increase of data availability and the computing power together with advanced data analytics, the data driven approach becomes a more objective and scientific way for us to understand the urban system for solving the social, economic, and environmental challenges in cities. Knowledge and skills for collecting and analyzing urban spatial data become an essential skill for urban researchers. This course will teach students the concepts, techniques, and analytical methods for urban analytics. Methods for collecting, storing, processing, analyzing, and visualizing various types of urban data using programming will be taught in this course. Examples of real urban analytics applications will be introduced in this course in order for students to get the practical skills in handling urban spatial data. The course is designed for students who have programming experience or have finished GUS 5031 (GIS Programming) previously and want to reinforce the knowledge and skills and learn advanced topics in urban informatics and urban data analytics for solving urban issues. This course includes lectures and lab exercises. The knowledge and skills learned in this course further prepare students for an emerging career in smart city, data science, GIS, urban planning, and environmental management.
+
+
+# Outline
+
+## 1. Introduction of Urban Analytics and configure the environment
+1. Install Anaconda ([Link](Lab1-Configure-environment/install-anaconda.md))
+
+2. Be familar with Jupyter Notebook ([link](Lab1-Configure-environment/jupyter-notebook.md))
+
+3. Basics of Python programing ([Link](Lab1-Configure-environment/PythonBasic.ipynb))
+
+## 2.  Basics of Python Programming
+
+1. Data types
+2. Python data structures, `list`, `dictionary`, `array`
+3. Functions, `for`, `while` loops
+4. Python modules, `pandas`, `os, os.path`, `matplotlib`
+
+## 3. GIS programming using open-sourced modules
+
+1. Be familiar to several popular Python modules
+2. Using `GeoPandas` to read and write shapefiles
+3. Using `Fiona` to operate shapefile
+4. Using `Rasterio` to operate raster data
+
+## 4. Accessing Census data using Python
+
+1. Be familiar to the US census data
+2. Using Python to access and download census data automatically
+3. Calculate socio-economic variables and create choropleth maps
+
+## 5. Open Urban Data and web scraping
+
+1. Using Python to download open data through `URL` address
+2. Download open data through `API`
+3. Web-scraping using Python
+
+
+## 6. Network analysis and urban traffic data
+
+1. Be familiar to `Graph` and network
+2. Using `NetworkX` to conduct road network analysis
+3. Analyzing the `GTFS` format standard traffic data
+
+## 7. Map the urban vegetation coverage
+
+1. Using Rasterio to examine the tree canopy cover of Philadelphia
+2. Conduct zonal statistics to calculate the census tract level tree canopy cover distribution
+3. Conduct the socio-environmental analyses
+
+## 8. Spatial statistics and analysis
+
+1. Using Python to conduct regular statistical analysis
+2. Understand the concepts of spatial statistics
+3. Using `pysal` to conduct spatial anlaysis of enviornmental justice in Philadelphia
+
+## 9. Machine learning for urban analytics
+1. Be familiar with basic ideas of machine learning
+2. Know about several machine learning algorithms
+3. Know how to create a neural network for urban analytics
+
+## 10. Urban data visualization and Web Mapping
+
+1. Use Python to create visualizations of urban data
+2. Using `Mapbox` to visualize spatial data on Internet.
+
+## 11. Smart cities and Urban Sensing
+
+1. Using your smartphone to collect data
+2. Using python to analyze the data your collected.
+
+## 12. Frontiers of Urban Analytics
+
