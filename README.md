@@ -12,7 +12,7 @@ With the increase of data availability and the computing power together with adv
 
 3. Basics of Python programing ([Link](lab1-introduction-configure-environment/Python-basics.ipynb))
 
-## 2.  Basics of Python Programming
+## 2.  Basics of Python Programming ([Link](lab2-python-basics/Python-basics.ipynb))
 
 1. Data types
 2. Python data structures, `list`, `dictionary`, `array`
@@ -23,8 +23,8 @@ With the increase of data availability and the computing power together with adv
 
 1. Be familiar to several popular Python modules
 2. Using `GeoPandas` to read and write shapefiles
-3. Using `Fiona` to operate shapefile
-4. Using `Rasterio` to operate raster data
+3. Using `Fiona` to manipulate shapefile
+4. Using `Rasterio` to manipulate raster data
 
 ## 4. Accessing Census data using Python
 
