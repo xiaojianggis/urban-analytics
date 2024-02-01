@@ -19,7 +19,7 @@ With the increase of data availability and the computing power together with adv
 3. Functions, `for`, `while` loops
 4. Python modules, `pandas`, `os, os.path`, `matplotlib`
 
-## 3. GIS programming using open-sourced modules
+## 3. GIS programming using open-sourced modules ([Link](lab3-spatial-data-io/spatial-data-io.ipynb))
 
 1. Be familiar to several popular Python modules
 2. Using `GeoPandas` to read and write shapefiles
