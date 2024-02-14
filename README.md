@@ -32,7 +32,7 @@ With the increase of data availability and the computing power together with adv
 2. Using Python to access and download census data automatically
 3. Calculate socio-economic variables and create choropleth maps
 
-## 5. Open Urban Data and web scraping
+## 5. Open Urban Data and web scraping ([Link](lab5-web-scraping/web-scraping.ipynb))
 
 1. Using Python to download open data through `URL` address
 2. Download open data through `API`
