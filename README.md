@@ -41,9 +41,9 @@ With the increase of data availability and the computing power together with adv
 
 ## 6. Network analysis and urban traffic data
 
-1. Be familiar to `Graph` and network
-2. Using `NetworkX` to conduct road network analysis
-3. Analyzing the `GTFS` format standard traffic data
+1. Be familiar to `Graph` and network ([Link](lab6-traffic-data/network-analytic-traffic.ipynb))
+2. Using `NetworkX` to conduct road network analysis ([Link](lab6-traffic-data/network-analytic-traffic.ipynb))
+3. Analyzing the `GTFS` format standard traffic data ([Link](lab6-traffic-data/GTFS_Schedule_Rail_Trip.ipynb))
 
 ## 7. Map the urban vegetation coverage
 
