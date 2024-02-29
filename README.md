@@ -45,7 +45,7 @@ With the increase of data availability and the computing power together with adv
 2. Using `NetworkX` to conduct road network analysis ([Link](lab6-traffic-data/network-analytic-traffic.ipynb))
 3. Analyzing the `GTFS` format standard traffic data ([Link](lab6-traffic-data/GTFS_Schedule_Rail_Trip.ipynb))
 
-## 7. Map the urban vegetation coverage
+## 7. Map the urban vegetation coverage ([Link](lab7-raster-analytics/raster-analytics.ipynb))
 
 1. Using Rasterio to examine the tree canopy cover of Philadelphia
 2. Conduct zonal statistics to calculate the census tract level tree canopy cover distribution
