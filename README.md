@@ -51,7 +51,7 @@ With the increase of data availability and the computing power together with adv
 2. Conduct zonal statistics to calculate the census tract level tree canopy cover distribution
 3. Conduct the socio-environmental analyses
 
-## 8. Spatial statistics and analysis
+## 8. Spatial statistics and analysis ([Link](lab8-spatial-analytics/spatial-analysis-regression.ipynb))
 
 1. Using Python to conduct regular statistical analysis
 2. Understand the concepts of spatial statistics
