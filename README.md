@@ -57,20 +57,14 @@ With the increase of data availability and the computing power together with adv
 2. Understand the concepts of spatial statistics
 3. Using `pysal` to conduct spatial anlaysis of enviornmental justice in Philadelphia
 
-## 9. Machine learning for urban analytics
+## 9. Machine learning for urban analytics ([Link](https://colab.research.google.com/drive/1GxjaO93_lWo433GFk4hDNE4ebCKhFZ_7?usp=sharing))
 1. Be familiar with basic ideas of machine learning
 2. Know about several machine learning algorithms
 3. Know how to create a neural network for urban analytics
+4. Extension (Optional, segment street-level images) ([Link](https://colab.research.google.com/drive/1h_cbTsGeR9JO6y61yPsk1PVhYGRKE6J9?usp=sharing))
 
 ## 10. Urban data visualization and Web Mapping
 
 1. Use Python to create visualizations of urban data
 2. Using `Mapbox` to visualize spatial data on Internet.
-
-## 11. Smart cities and Urban Sensing
-
-1. Using your smartphone to collect data
-2. Using python to analyze the data your collected.
-
-## 12. Frontiers of Urban Analytics
 
