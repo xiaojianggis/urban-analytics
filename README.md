@@ -63,9 +63,9 @@ With the increase of data availability and the computing power together with adv
 3. Know how to create a neural network for urban analytics
 4. Extension (Optional, segment street-level images) ([Link](https://colab.research.google.com/drive/1h_cbTsGeR9JO6y61yPsk1PVhYGRKE6J9?usp=sharing))
 
-## 10. Urban data visualization and Web Mapping([Link](lab10-urban-data-viz/urban-data-vis.ipynb))
+## 10. Urban data visualization and Web Mapping
 
-1. Use Python to create visualizations of urban data
+1. Use Python to create visualizations of urban data ([Link](lab10-urban-data-viz/urban-data-vis.ipynb))
 2. Using `Mapbox` to visualize spatial data on Internet ([Link](https://docs.mapbox.com/mapbox-gl-js/example/)).
 3. Deck.gl to visualize spatial data ([Link](https://deck.gl/examples)).
 
