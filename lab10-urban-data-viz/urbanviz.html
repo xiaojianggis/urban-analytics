@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Change building color based on zoom level</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+<style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<style>
+    #zoom {
+        display: block;
+        position: relative;
+        margin: 20px auto;
+        width: 50%;
+        height: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+        background: #ee8a65;
+    }
+</style>
+
+<div id="map"></div>
+<button id="zoom">Zoom to buildings</button>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoieGlhb2ppYW5nZ2lzIiwiYSI6ImNrNnI5ZzJmcDAxNWszbW9mMjV1bGxsb3oifQ.O2EHW7BWQ3-qjo_u7ddqNA';
+    const map = new mapboxgl.Map({
+        container: 'map', // container ID
+        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+        style: 'mapbox://styles/mapbox/streets-v12', // style URL
+        center: [-90.73414, 14.55524], // starting position [lng, lat]
+        zoom: 15 // starting zoom
+    });
+
+    map.on('load', () => {
+        map.setPaintProperty('building', 'fill-color', [
+            'interpolate',
+            // Set the exponential rate of change to 0.5
+            ['exponential', 0.5],
+            ['zoom'],
+            // When zoom is 15, buildings will be beige.
+            15,
+            '#D9D3C9',
+            // When zoom is 18 or higher, buildings will be yellow.
+            18,
+            '#ffd700'
+        ]);
+
+        map.setPaintProperty('building', 'fill-opacity', [
+            'interpolate',
+            // Set the exponential rate of change to 0.5
+            ['exponential', 0.5],
+            ['zoom'],
+            // When zoom is 10, buildings will be 100% transparent.
+            10,
+            0.5,
+            // When zoom is 18 or higher, buildings will be 100% opaque.
+            18,
+            1
+        ]);
+    });
+
+    // When the button is clicked, zoom in to zoom level 19.
+    // The animation duration is 9000 milliseconds.
+    document.getElementById('zoom').addEventListener('click', () => {
+        map.zoomTo(18, { duration: 9000 });
+    });
+</script>
+
+</body>
+</html>
