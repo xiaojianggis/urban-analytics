@@ -65,7 +65,7 @@ With the increase of data availability and the computing power together with adv
 
 ## 10. Urban data visualization and Web Mapping
 
-1. Use Python to create visualizations of urban data ([Link](lab10-urban-data-viz/lab10-data-viz))
+1. Use Python to create visualizations of urban data ([Link](lab10-urban-data-viz/lab10-data-viz.ipynb))
 2. Using `Mapbox` to visualize spatial data on Internet ([Link](https://docs.mapbox.com/mapbox-gl-js/example/)).
 3. Deck.gl to visualize spatial data ([Link](https://deck.gl/examples)).
 
